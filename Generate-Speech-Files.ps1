@@ -1,4 +1,4 @@
-<code></code><code>PowerShell
+
 Param
   (
     [switch] $ShowAvailableWinSpeechVoices = $false
@@ -175,6 +175,4 @@ foreach ($ToSpeak in $MySpeech) {
 }
 
 
-
-</code><code></code>
 
