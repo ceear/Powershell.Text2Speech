@@ -19,11 +19,11 @@ $GenerateWinSpeechVoice="Microsoft Hedda Desktop" # Find available voices with p
 $FFMPEGPath = "C:\windows\system32\ffmpeg.exe" # We need to convert output wav-files to mp3. 
 
 #Configure Amazon Polly Engine
-$GenerateAmazonPolly = $true # $true / $false 
+$GenerateAmazonPolly = $false # $true / $false 
 $GenerateAmazonPollyVoice= "Vicki","Marlene","Hans" # Select Voices https://docs.aws.amazon.com/polly/latest/dg/voicelist.html
 
 #Configure Google Text2Speech Engine
-$GenerateGoogleTTS = $true # $true / $false
+$GenerateGoogleTTS = $false # $true / $false
 $GenerateGoogleTTSVoice="de-DE-Wavenet-A","de-DE-Wavenet-B","de-DE-Wavenet-C","de-DE-Wavenet-D" # Select Voices https://cloud.google.com/text-to-speech/docs/voices
 $GoogleTTSspeakingRate="1.20" # https://cloud.google.com/text-to-speech/docs/reference/rest/v1/text/synthesize#audioconfig
 $GoogleTTSpitch="0" # https://cloud.google.com/text-to-speech/docs/reference/rest/v1/text/synthesize#audioconfig
